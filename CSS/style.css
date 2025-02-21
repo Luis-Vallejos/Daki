@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style-type: none;
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
-/* Banner superior */
 .banner {
     background-color: #1a1a1a;
     color: white;
@@ -15,7 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 35px;
 }
 
 .cAcount {
@@ -29,10 +30,12 @@
 }
 
 .cAcount:hover {
-    background-color: #e0e0e0;
+    background-color: #c2c1f5;
 }
 
-/* Navbar principal */
+
+
+/*Header*/
 .header {
     background-color: #007bff;
     padding: 10px 0;
@@ -42,16 +45,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 100px;
+    padding: 0 20px;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
     color: white;
-}
-
-/* Logo */
-.logo span {
-    font-size: 24px;
-    font-weight: bold;
 }
 
 /* Navegación */
@@ -63,7 +60,7 @@
     margin: 0;
 }
 
-.Navs a {   
+.Navs a {
     color: white;
     text-decoration: none;
     transition: color 0.3s ease;
@@ -73,15 +70,16 @@
     color: #ddd;
 }
 
+
+
 /* Botones de la derecha */
 .NavButton {
     display: flex;
     gap: 10px;
     align-items: center;
-    height: 50px;
 }
 
-.SingIn {
+.Sing-In {
     color: white;
     text-decoration: none;
 }
@@ -99,6 +97,10 @@
     background-color: #e0e0e0;
 }
 
+.logo img {
+    width: 50px;
+    height: auto;
+}
 
 .hero-section {
     display: flex;
@@ -112,16 +114,16 @@
 }
 
 
+
+/* Texto del Hero */
 .hero-content {
     max-width: 50%;
-    
 }
 
 .hero-content h1 {
-    font-size: 50px;
-    margin: 5px;
+    font-size: 48px;
+    margin: 0 0 20px;
     color: white;
-    border: solid black 1px;
 }
 
 .hero-content p {
@@ -157,14 +159,17 @@
     filter: brightness(0) invert(1);
 }
 
+
+
 /* Imagen del Hero */
 .hero-image img {
     width: 100%;
-    max-width: 800px;
-    transform: rotate(-5deg);
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    margin-right: auto;
+    filter: drop-shadow(-10px 10px 15px rgba(0, 0, 0, 0.3));
     border-radius: 20px;
 }
+
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -181,5 +186,19 @@
     .hero-image img {
         transform: rotate(0deg);
         max-width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .Navs {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .NavButton {
+        flex-direction: column;
     }
 }
