@@ -9,7 +9,7 @@
 }
 
 
-/* BANNER */
+/* Banner */
 .anuncio-banner {
     background-color: #1a1a1a;
     color: white;
@@ -173,9 +173,7 @@
     color: white;
     display: flex;
     align-items: center;
-    /* Alinear verticalmente */
     justify-content: center;
-    /* Centrar horizontalmente */
     padding: 20px;
     gap: 100px;
 }
@@ -191,7 +189,6 @@
     display: flex;
     align-items: center;
     gap: 100px;
-    /* Espaciado uniforme entre logos */
 }
 
 /* Tamaño de los logos */
@@ -200,7 +197,7 @@
     object-fit: contain;
 }
 
-/* PARTE GREEN*/
+/* Parte green*/
 .green-section {
     background-color: #c8e6a0;
     width: 100%;
@@ -209,4 +206,142 @@
     align-content: center;
     font-size: 45px;
     font-weight: 600;
+}
+
+.chat-solution {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.solution-tag {
+    color: blue;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px;
+}
+.workflow-tag {
+    color: blue;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.features-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    padding: 20px;
+    gap: 80px;
+    border: solid 1px solid;
+}
+
+.features {
+    margin-left: 100px;
+    max-width: 500px;
+    text-align: justify;
+}
+
+.features h3 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.features p {
+    margin-bottom: 20px;
+}
+
+.accordion {
+    margin-top: 20px;
+}
+
+.accordion-item {
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.accordion-item h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.icon {
+    transition: transform 0.3s ease;
+}
+
+.accordion-item.active .icon {
+    transform: rotate(180deg);
+}
+
+.content {
+    display: none;
+    margin-top: 10px;
+}
+
+.accordion-item.active .content {
+    display: block;
+}
+
+.feature-images {
+    justify-self: end;
+    width: 100%;
+    
+}
+
+.feature-images img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.workflow-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    gap: 250px;
+}
+
+.program-manager img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 100px;
+}
+
+
+.workflow-text {
+    width: 50%;
+    text-align: left;
+}
+
+.cta-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 200px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 45px;
 }
