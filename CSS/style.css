@@ -188,16 +188,33 @@
 .trusted-logos {
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 90px;
 }
 
-/* Tamaño de los logos */
-.trusted-logos img {
-    object-fit: contain;
-    transition: transform 0.2s ease;
+/* Tamaño de los logos (personalizados)*/
+
+#amazon-logo {
+    width: 140px; /* Ajuste personalizado para Amazon */
     height: auto;
-    filter: brightness(0) invert(1);
-    width: 160px;
+    object-fit: contain;
+}
+
+#github-logo {
+    width: 160px; /* Ajuste personalizado para Amazon */
+    height: auto;
+    object-fit: contain;
+}
+
+#medium-logo {
+    width: 170px; /* Ajuste personalizado para Amazon */
+    height: auto;
+    object-fit: contain;
+}
+
+#notion-logo {
+    width: 140px; /* Ajuste personalizado para Amazon */
+    height: auto;
+    object-fit: contain;
 }
 
 /* Parte green*/
