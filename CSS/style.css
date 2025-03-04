@@ -193,8 +193,11 @@
 
 /* Tamaño de los logos */
 .trusted-logos img {
-    height: 35px;
     object-fit: contain;
+    transition: transform 0.2s ease;
+    height: auto;
+    filter: brightness(0) invert(1);
+    width: 160px;
 }
 
 /* Parte green*/
