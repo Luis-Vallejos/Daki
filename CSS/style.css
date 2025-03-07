@@ -100,15 +100,15 @@
 
 .Get-Started {
     background-color: white;
-    color: #007bff;
+    color: black;
     padding: 10px 15px;
     border-radius: 20px;
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
 
-.GetStarted:hover {
-    background-color: #e0e0e0;
+.Get-Started:hover {
+    background-color: #c4bfbf;
 }
 
 /* Hero Section */
@@ -356,12 +356,42 @@ h2 {
 }
 
 .cta-button {
-    background-color: #4caf50;
-    color: white;
+    background-color: #b6ff8c;
+    color: black;
     padding: 20px 20px;
     border: none;
     border-radius: 200px;
     cursor: pointer;
     font-size: 16px;
     margin-top: 45px;
+}
+
+.cta-button:hover {
+    background-color: #a3e07d;
+}
+
+.blue-section {
+    background-color: #007bff;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    align-content: center;
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+}
+
+.btn-blue {
+    background-color: #b6ff8c;
+    color: black;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 200px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 45px;
+}
+
+.cta-button:hover {
+    background-color: #a3e07d;
 }
