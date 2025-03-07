@@ -395,3 +395,76 @@ h2 {
 .cta-button:hover {
     background-color: #a3e07d;
 }
+
+/* FOOTER */
+footer {
+    padding: 40px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left {
+    flex: 1;
+    min-width: 250px;
+}
+.footer-left h2 {
+    font-size: 1.5rem;
+    color: #0056FF;
+    margin-bottom: 10px;
+}
+.subscribe {
+    display: flex;
+    margin-top: 10px;
+}
+.subscribe input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    flex: 1;
+}
+.subscribe button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0056FF;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.footer-columns {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    min-width: 400px;
+}
+.footer-columns div {
+    margin: 10px;
+}
+.footer-columns h4 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+.footer-columns a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+.footer-columns a:hover {
+    color: #0056FF;
+}
+.footer-bottom {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
