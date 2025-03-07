@@ -262,7 +262,7 @@ h2 {
 
 .features-container {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 40% 65%;
     align-items: center;
     padding: 20px;
     gap: 20px;
@@ -272,11 +272,11 @@ h2 {
 .features {
     margin-left: 100px;
     max-width: 500px;
-    text-align: justify;
+    text-align: left;
 }
 
 .features h3 {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
