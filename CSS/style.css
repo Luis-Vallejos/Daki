@@ -194,25 +194,25 @@
 /* Tamaño de los logos (personalizados)*/
 
 #amazon-logo {
-    width: 140px; /* Ajuste personalizado para Amazon */
+    width: 140px;
     height: auto;
     object-fit: contain;
 }
 
 #github-logo {
-    width: 160px; /* Ajuste personalizado para Amazon */
+    width: 160px;
     height: auto;
     object-fit: contain;
 }
 
 #medium-logo {
-    width: 170px; /* Ajuste personalizado para Amazon */
+    width: 170px;
     height: auto;
     object-fit: contain;
 }
 
 #notion-logo {
-    width: 140px; /* Ajuste personalizado para Amazon */
+    width: 140px;
     height: auto;
     object-fit: contain;
 }
