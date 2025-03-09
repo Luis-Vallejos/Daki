@@ -381,6 +381,10 @@ h2 {
     color: white;
 }
 
+.blue-section p {
+    font-size: 18px;
+}
+
 .btn-blue {
     background-color: #b6ff8c;
     color: black;
