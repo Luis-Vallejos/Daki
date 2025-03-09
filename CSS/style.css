@@ -417,6 +417,7 @@ footer {
 .footer-left {
     flex: 2;
     min-width: 250px;
+    margin: 20px;
 }
 .footer-left h2 {
     font-size: 1.5rem;
@@ -445,16 +446,17 @@ footer {
 }
 .footer-columns {
     display: flex;
-    flex: 2;
+    flex: 3;
     justify-content: space-between;
     min-width: 400px;
     
+    
 }
 .footer-columns div {
-    margin: 10px;
+    margin: 1px;
 }
 .footer-columns h4 {
-    margin-bottom: 10px;
+    margin-bottom: 35px;
     font-size: 1.1rem;
 }
 .footer-columns a {
@@ -463,6 +465,7 @@ footer {
     text-decoration: none;
     margin: 5px 0;
     font-size: 0.9rem;
+    margin-bottom: 20px;
 }
 .footer-columns a:hover {
     color: #0056FF;
