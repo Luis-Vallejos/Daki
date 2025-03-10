@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('./GeneralClasses.css');
 
 * {
     margin: 0;
@@ -402,7 +403,7 @@ h2 {
     background-color: #a3e07d;
 }
 
-/* FOOTER PREPARATE POR QUE VOY A BORRARLO TODO */
+/* FOOTER */
 footer {
     padding: 60px 20px;
     background-color: #f5f5f5;
@@ -419,14 +420,33 @@ footer {
 }
 
 .footer-left {
-    flex: 1 1 300px;
-    min-width: 280px;
+    flex: 2;
+    min-width: 390px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+}
+
+.footer-sub-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-left img {
+    width: 40px;
+    height: auto;
+    margin-bottom: 10px;
 }
 
 .footer-left h2 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: #0056FF;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 .footer-left p {
@@ -438,26 +458,28 @@ footer {
 .subscribe {
     display: flex;
     align-items: center;
-    gap: 8px;
-  }
-  
-  .subscribe .input-wrapper {
+    gap: 70px;
+}
+
+/* Contenedor del input con ícono */
+.subscribe .input-wrapper {
     position: relative;
-    flex: 1;
-  }
-  
-  .subscribe .input-wrapper img {
+    flex-grow: 1;
+    min-width: 180px;
+}
+
+.subscribe .input-wrapper img {
     position: absolute;
     left: 15px;
     top: 50%;
     transform: translateY(-50%);
-    width: 18px; 
+    width: 18px;
     height: 18px;
     pointer-events: none;
-    opacity: 0.8; 
-  }
+    opacity: 0.8;
+}
 
-  .subscribe .input-wrapper input {
+.subscribe .input-wrapper input {
     width: 100%;
     padding: 12px 12px 12px 45px;
     border: 1px solid #ddd;
@@ -465,21 +487,9 @@ footer {
     outline: none;
     font-size: 0.9rem;
     transition: border-color 0.2s ease;
-  }
-  
-  .subscribe .input-wrapper input:focus {
-    border-color: #0056FF;
-  }
-  
-.subscribe input {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ddd;
-    border-radius: 30px;
-    outline: none;
-    font-size: 0.9rem;
 }
 
+/* Botón de suscripción */
 .subscribe button {
     padding: 12px 20px;
     border: none;
@@ -489,12 +499,12 @@ footer {
     cursor: pointer;
     transition: background-color 0.3s ease;
     font-size: 0.9rem;
-    z-index: 999;
+    min-width: 150px;
 }
-
 .subscribe button:hover {
     background-color: #003bbd;
 }
+
 
 .footer-columns {
     display: flex;
@@ -502,9 +512,9 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 40px;
+    margin-top: 25px;
 }
 
-/* Cada columna individual */
 .footer-columns div {
     flex: 1 1 150px;
 }
