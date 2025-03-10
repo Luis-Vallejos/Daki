@@ -1,5 +1,8 @@
+import { InicializarAOS } from '/JS/aos.js';
+
 document.addEventListener('DOMContentLoaded', () => {
     toggleAccordion();
+    InicializarAOS();
 });
 
 function toggleAccordion() {
