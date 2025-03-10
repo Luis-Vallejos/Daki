@@ -267,13 +267,14 @@ h2 {
     align-items: center;
     padding: 20px;
     gap: 20px;
-    border: solid 1px solid;
+    border: solid 2px black;
 }
 
 .features {
     margin-left: 100px;
     max-width: 500px;
     text-align: left;
+    border: solid 2px black;
 }
 
 .features h3 {
@@ -326,6 +327,8 @@ h2 {
 .feature-images {
     justify-self: end;
     width: 100%;
+    margin-right: 60px;
+    text-align: right;
     
 }
 
