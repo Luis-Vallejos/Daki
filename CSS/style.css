@@ -9,6 +9,10 @@
     font-family: 'Inter', sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 
 /* Banner */
 .anuncio-banner {
@@ -416,7 +420,7 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 170px;
 }
 
 .footer-left {
@@ -505,13 +509,12 @@ footer {
     background-color: #003bbd;
 }
 
-
 .footer-columns {
     display: flex;
     flex: 2 1 600px;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 30px;
     margin-top: 25px;
 }
 
@@ -520,7 +523,7 @@ footer {
 }
 
 .footer-columns h4 {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     font-size: 1rem;
     font-weight: bold;
 }
@@ -529,7 +532,7 @@ footer {
     display: block;
     color: #333;
     text-decoration: none;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-size: 0.9rem;
     transition: color 0.2s ease;
 }
