@@ -1,0 +1,7 @@
+/* Estilo global para no permitir se copie un elemento de la pagina web */
+.sin-copiar {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
