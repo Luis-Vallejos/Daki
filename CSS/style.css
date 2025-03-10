@@ -232,33 +232,32 @@
     background-color: white;
     text-align: center;
     width: 100%;
-    padding-top: 100px;
+    padding-top: 130px;
 }
 
 .solution-tag {
     color: blue;
-    font-size: 14px;
+    font-size: 15px;
     text-transform: uppercase;
     font-weight: bold;
-    margin-bottom: 20px;
 }
 
 .workflow-tag {
     color: blue;
-    font-size: 14px;
+    font-size: 15px;
     text-transform: uppercase;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 55px;
     margin-bottom: 20px;
 }
 
 .description {
-    font-size: 16px;
+    font-size: 17px;
     color: #555;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .features-container {
@@ -276,24 +275,24 @@ h2 {
 }
 
 .features h3 {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
 .features p {
-    margin-bottom: 20px;
-    font-size: 20px;
+    margin-bottom: 15px;
+    font-size: 17px;
 }
 
 .accordion {
-    margin-top: 30px;
+    margin-top: 45px;
 }
 
 .accordion-item {
     background: #f0f0f0;
     padding: 20px;
     border-radius: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     cursor: pointer;
     position: relative;
 }
@@ -302,7 +301,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .icon {
@@ -331,18 +330,17 @@ h2 {
 }
 
 .feature-images img {
-    width: 95%;
+    width: 90%;
     max-width: 650px;
     border-radius: 10px;
-    margin-top: 55px;
+    margin-top: 100px;
 }
 
 .workflow-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
-    gap: 250px;
+    gap: 90px;
 }
 
 .program-manager img {
@@ -350,7 +348,7 @@ h2 {
     max-width: 600px;
     border-radius: 10px;
     margin: 100px;
-    margin-top: 135px;
+    margin-top: 160px;
 }
 
 
@@ -386,7 +384,7 @@ h2 {
 }
 
 .blue-section p {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .btn-blue {
