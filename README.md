@@ -33,6 +33,15 @@ Daki/
 │── Imagenes/              # Recursos gráficos
 ```
 
+## Retos y Aprendizaje
+
+Durante el desarrollo del proyecto, me enfrenté a varios desafíos que me permitieron aprender y mejorar mis 
+habilidades en CSS y posicionamiento de elementos. Algunos de los retos que logré superar fueron:
+
+- Implementar animaciones correctamente, lo cual fue complicado al inicio, pero con investigación y práctica logré dominarlo.
+- Posicionar la imagen de inicio de manera adecuada dentro del diseño.
+- Alinear y distribuir correctamente los iconos en la interfaz.
+
 ## Contribución
 
 Si deseas contribuir al proyecto, puedes hacer un fork del repositorio, realizar cambios y enviar un pull request.
