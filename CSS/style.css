@@ -81,6 +81,11 @@ body {
     margin: 0 20px;
 }
 
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
 .nav-links {
     list-style: none;
     display: flex;
