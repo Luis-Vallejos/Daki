@@ -236,7 +236,7 @@ body {
 
 /* Parte green*/
 .green-section {
-    background-image: url('./Imagenes/FondoVerde.png'); /*Cambio*/
+    background-color: #C7F2AB;
     background-size: cover;
     background-position: center;
     width: 100%;
