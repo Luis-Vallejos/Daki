@@ -341,6 +341,17 @@ h2 {
     display: block;
 }
 
+.accordion-item .icon::after {
+    content: "\25BC";
+    font-size: 20px;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.accordion-item.active .icon::after {
+    content: "\25B2";
+}
+
 .feature-images {
     justify-self: end;
     width: 100%;
