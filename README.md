@@ -1,7 +1,7 @@
-```md
 # Daki
 
-Daki es un proyecto web desarrollado con HTML, CSS y JavaScript. Se trata de una interfaz visual con estilos personalizados y efectos interactivos.
+Daki es un proyecto web desarrollado con HTML, CSS y JavaScript. Se trata de una interfaz visual 
+con estilos personalizados y efectos interactivos.
 
 ## Características
 
