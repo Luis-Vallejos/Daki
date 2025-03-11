@@ -74,6 +74,13 @@ body {
     font-weight: bold;
 }
 
+.separator {
+    width: 1px;      
+    background-color: white; 
+    height: 40px;       
+    margin: 0 20px;
+}
+
 .nav-links {
     list-style: none;
     display: flex;
