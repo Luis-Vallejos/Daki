@@ -50,6 +50,6 @@ habilidades en CSS y posicionamiento de elementos. Algunos de los retos que logr
 
 Si deseas contribuir al proyecto, puedes hacer un fork del repositorio, realizar cambios y enviar un pull request.
 
-## Licencia
+## LICENCIA:
 
 Este proyecto está bajo la licencia MIT. Puedes ver más detalles en el archivo `LICENSE` (si aplica).
