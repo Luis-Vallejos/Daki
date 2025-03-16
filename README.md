@@ -1,9 +1,13 @@
-# Daki
+# DAKI:
 
 Daki es un proyecto web desarrollado con HTML, CSS y JavaScript. Se trata de una interfaz visual 
 con estilos personalizados y efectos interactivos.
 
-## Características
+## LINK DE EJECUCIÓN:
+https://luis-vallejos.github.io/Daki/
+
+
+## CARACTERÍSTICAS:
 
 - Página principal con estructura HTML (`index.html`).
 - Estilos personalizados con CSS (`GeneralClasses.css`, `style.css`).
@@ -11,7 +15,7 @@ con estilos personalizados y efectos interactivos.
 - Uso de `aos.js` para efectos de animación en el sitio.
 - Contiene imágenes y recursos para la interfaz.
 
-## Instalación y Uso
+## INSTALACIÓN Y USO
 
 1. Clonar el repositorio:
    ```sh
@@ -19,7 +23,7 @@ con estilos personalizados y efectos interactivos.
    ```
 2. Abrir el archivo `index.html` en un navegador web.
 
-## Estructura del Proyecto
+## ESTRUCTURA DEL PROYECTO:
 
 ```
 Daki/
@@ -33,7 +37,7 @@ Daki/
 │── Imagenes/              # Recursos gráficos
 ```
 
-## Retos y Aprendizaje
+## RETOS Y APRENDIZAJES:
 
 Durante el desarrollo del proyecto, me enfrenté a varios desafíos que me permitieron aprender y mejorar mis 
 habilidades en CSS y posicionamiento de elementos. Algunos de los retos que logré superar fueron:
@@ -42,7 +46,7 @@ habilidades en CSS y posicionamiento de elementos. Algunos de los retos que logr
 - Posicionar la imagen de inicio de manera adecuada dentro del diseño.
 - Alinear y distribuir correctamente los iconos en la interfaz.
 
-## Contribución
+## CONTRIBUCIÓN:
 
 Si deseas contribuir al proyecto, puedes hacer un fork del repositorio, realizar cambios y enviar un pull request.
 
